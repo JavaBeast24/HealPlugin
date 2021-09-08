@@ -1,0 +1,17 @@
+name: healplugin
+version: 0.0.1
+main: com.beastdevelopment.healplugin.javabeast.Main
+author: javabeast
+api-version: 1.8
+database: false
+description: heal command plugin to heal players on your server.
+prefix: 'HealPlugin'
+website: discord.gg/Wv3kk3BSRM
+commands:
+  heal:
+    description: heal a player on your server.
+    permission: healplugin.command.heal
+permissions:
+  healplugin.command.heal:
+    description: allows a player to use the /heal command
+    default: op
